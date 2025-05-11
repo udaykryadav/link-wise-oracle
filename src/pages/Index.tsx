@@ -4,7 +4,6 @@ import LinkAnalyzer from "@/components/LinkAnalyzer";
 import SafetyVerdict from "@/components/SafetyVerdict";
 import CookiePermissions from "@/components/CookiePermissions";
 import ChatInterface from "@/components/ChatInterface";
-import UserProfile from "@/components/UserProfile";
 import { Shield } from "lucide-react";
 import { AnalysisResult } from "@/utils/analysisUtils";
 
@@ -26,10 +25,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-slate-100">
       {/* Hero Section */}
-      <header className="pt-16 pb-12 px-4 text-center relative">
-        <div className="absolute top-4 right-4">
-          <UserProfile />
-        </div>
+      <header className="pt-16 pb-12 px-4 text-center">
         <div className="max-w-2xl mx-auto">
           <div className="mb-4 flex justify-center">
             <div className="h-16 w-16 rounded-full bg-blue-100 flex items-center justify-center">
